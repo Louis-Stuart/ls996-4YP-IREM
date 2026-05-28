@@ -1,0 +1,11 @@
+backend
+cd air-trail-guide-main/server_python
+pip install -r requirements.txt
+python main.py
+
+frontend
+cd air-trail-guide-main
+npm install
+npm run dev
+if I'm using powershell I should make the npm launchs throught the cmd
+npm.cmd run dev
