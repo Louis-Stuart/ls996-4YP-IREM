@@ -1,6 +1,6 @@
-# RDGP-CO2
+# IREM
 
-RDGP-CO2 is a web application for exploring road-segment emissions data on an interactive map. It combines a React frontend with a FastAPI backend that serves the real emissions model from `server_python/emissions_model.py`.
+Integrated Road Emission Model (IREM) is a web application for exploring road-segment emissions data on an interactive map. It combines a React frontend with a FastAPI backend that serves the real emissions model from `server_python/emissions_model.py`.
 
 The application is designed so confidential CSV inputs stay out of version control. Runtime data paths are supplied through `.env`, while the frontend consumes a stable API contract and renders map geometry in `EPSG:4326`.
 
