@@ -1,0 +1,2 @@
+export const EMISSION_LOW_THRESHOLD = 0.100;
+export const EMISSION_MEDIUM_THRESHOLD = 0.130;

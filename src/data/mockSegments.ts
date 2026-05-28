@@ -1,0 +1,106 @@
+import { RoadSegment } from "@/types/roadSegment";
+
+export const mockSegments: RoadSegment[] = [
+  {
+    id: "seg_001",
+    name: "A10 Segment 12",
+    geometry: {
+      point: { lat: 52.2053, lon: 0.1218 },
+      line: { type: "LineString", coordinates: [[0.1201, 52.206], [0.1235, 52.2042]] },
+    },
+    emissionFactors: { co2e: 145.2, unit: "gCO2e/km" },
+    roadType: "primary",
+    speedLimit: 50,
+    lastUpdated: "2026-02-16T10:25:00Z",
+    source: "backend-calculation",
+  },
+  {
+    id: "seg_002",
+    name: "M11 Junction 8",
+    geometry: {
+      point: { lat: 51.985, lon: 0.1565 },
+      line: { type: "LineString", coordinates: [[0.1540, 51.987], [0.1590, 51.983]] },
+    },
+    emissionFactors: { co2e: 210.8, unit: "gCO2e/km" },
+    roadType: "motorway",
+    speedLimit: 70,
+    lastUpdated: "2026-02-16T09:15:00Z",
+    source: "backend-calculation",
+  },
+  {
+    id: "seg_003",
+    name: "B1046 Rural Section",
+    geometry: {
+      point: { lat: 52.155, lon: -0.025 },
+      line: { type: "LineString", coordinates: [[-0.030, 52.157], [-0.020, 52.153]] },
+    },
+    emissionFactors: { co2e: 72.5, unit: "gCO2e/km" },
+    roadType: "secondary",
+    speedLimit: 40,
+    lastUpdated: "2026-02-15T18:00:00Z",
+    source: "backend-calculation",
+  },
+  {
+    id: "seg_004",
+    name: "A14 Interchange",
+    geometry: {
+      point: { lat: 52.235, lon: 0.155 },
+      line: { type: "LineString", coordinates: [[0.150, 52.237], [0.160, 52.233]] },
+    },
+    emissionFactors: { co2e: 188.3, unit: "gCO2e/km" },
+    roadType: "primary",
+    speedLimit: 60,
+    lastUpdated: "2026-02-16T08:30:00Z",
+    source: "backend-calculation",
+  },
+  {
+    id: "seg_005",
+    name: "Station Road Urban",
+    geometry: {
+      point: { lat: 52.195, lon: 0.135 },
+    },
+    emissionFactors: { co2e: 95.0, unit: "gCO2e/km" },
+    roadType: "residential",
+    speedLimit: 30,
+    lastUpdated: "2026-02-16T07:45:00Z",
+    source: "backend-calculation",
+  },
+  {
+    id: "seg_006",
+    name: "A1303 Newmarket Rd",
+    geometry: {
+      point: { lat: 52.202, lon: 0.148 },
+      line: { type: "LineString", coordinates: [[0.140, 52.204], [0.156, 52.200]] },
+    },
+    emissionFactors: { co2e: 162.7, unit: "gCO2e/km" },
+    roadType: "primary",
+    speedLimit: 40,
+    lastUpdated: "2026-02-16T11:00:00Z",
+    source: "backend-calculation",
+  },
+  {
+    id: "seg_007",
+    name: "M11 Southbound S3",
+    geometry: {
+      point: { lat: 52.05, lon: 0.13 },
+      line: { type: "LineString", coordinates: [[0.128, 52.055], [0.132, 52.045]] },
+    },
+    emissionFactors: { co2e: 255.1, unit: "gCO2e/km" },
+    roadType: "motorway",
+    speedLimit: 70,
+    lastUpdated: "2026-02-16T06:20:00Z",
+    source: "backend-calculation",
+  },
+  {
+    id: "seg_008",
+    name: "Hills Road Cycle Corr",
+    geometry: {
+      point: { lat: 52.19, lon: 0.125 },
+    },
+    emissionFactors: { co2e: 45.3, unit: "gCO2e/km" },
+    roadType: "residential",
+    speedLimit: 20,
+    lastUpdated: "2026-02-16T12:00:00Z",
+    source: "backend-calculation",
+  },
+];
